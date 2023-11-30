@@ -1,0 +1,102 @@
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+  /* background-color: #dedede; */
+}
+.box{
+    background-color: #dedede;
+    padding: 20px;
+}
+.btn-group > button:nth-child(2){
+    display: inline-flex;
+}
+.img-icon{
+    width: 30px;
+}
+header {
+  /* background-color: salmon; */
+  /* padding: 25px; */
+  /* padding-block: 25px; */
+  /* padding-inline: 25px; */
+  background-image: url('https://cdn.pixabay.com/photo/2017/04/19/13/03/coffee-2242213_640.jpg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  /* background-size: contain; */
+  min-height: 300px;
+  color: azure;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* header > img {
+  position: relative;
+  width: inherit;
+} */
+nav {
+  /* background-color: sandybrown; */
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.prev {
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.btn-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.btn-group > button {
+  font-size: 20px;
+  border: 0 ;
+  padding: 20px ;
+  border-radius: 25px;
+}
+.btn-group > a > img {
+  width: 60px;
+}
+.welcome {
+  font-size: 40px;
+  text-align: center;
+  /* background-color: blueviolet; */
+  padding-top: 40px;
+}
+.select-header {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+.items-row {
+  /* background-color: cornflowerblue; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  gap: 40px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-width: 150px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: 20px 0;
+  gap: 20px;
+  font-size: 20px;
+}
+.item > img {
+  height: 100px;
+}
